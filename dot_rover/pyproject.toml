@@ -6,8 +6,8 @@ readme = "README.md"
 authors = [
     { name = "Muna Nwugo", email = "munachimsonwugo@gmail.com" }
 ]
-requires-python = ">=3.10"
-dependencies = []
+requires-python = ">=3.14"
+dependencies = [btpy]
 
 [project.scripts]
 dot-rover = "dot_rover:main"
